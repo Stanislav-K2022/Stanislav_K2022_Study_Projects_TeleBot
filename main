@@ -8,7 +8,7 @@ exchanges = {
     'евро': 'EUR',
     'рубль': 'RUB'
 }
-TOKEN = "5445785243:AAH-HpzbnmdSAMEayGwjJjuZvIaZlEftJbk"
+TOKEN = "5591701060:AAFSD1xXakGmcmid2P7dGwrPOClaPrdDpm0"
 
 bot = telebot.TeleBot(TOKEN)
 
