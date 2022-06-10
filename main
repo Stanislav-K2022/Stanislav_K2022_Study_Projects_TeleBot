@@ -10,7 +10,7 @@ exchanges = {
 }
 TOKEN = "5445785243:AAH-HpzbnmdSAMEayGwjJjuZvIaZlEftJbk"
 
-bot = telebot.SuperCurrencyInformerBot(TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def start(message: telebot.types.Message):
